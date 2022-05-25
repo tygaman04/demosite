@@ -1,0 +1,172 @@
+body {
+font-family: 'Courier New', Courier, monospace;
+width: 100%;
+
+}
+
+/* .logo,.sub_header, .post_area, .list_items, .foot_section{
+    width:800px;
+    margin: 0 250px 0 250px; */
+/* } */
+
+h1,
+h2,
+h3 {
+  color: rgb(9, 134, 65);
+}
+
+/* using multiple selection */
+.logo a,
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+.logo{
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color:grey;
+  padding :0px 40px 20px 40px;
+  width: 80%;
+  margin: 0 150px 0 100px;
+
+}
+h2 {
+  font-size: 35px;
+}
+
+h3, h1 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #443434;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1;
+  line-height: 1.5;
+}
+
+li {
+  line-height: 1.5;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+li:last-child{
+  margin-bottom: 0;
+}
+
+.sub_header p {
+  font-size: 18px;
+  font-style: italic;
+
+}
+.jumbtron_img img{
+    width: 750px;
+}
+
+#foot_section {
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+.post_area li {
+  list-style: none;
+  font-size: 18px;
+}
+.post_area p {
+  font-weight: bold;
+  font-size: 16px;
+}
+.post_area img {
+  width: 100px;
+  height: 100px;
+}
+.post_area {
+  background-color: #818485e3;
+  border-top: 6px solid #9e3636;
+  border-bottom: 6px solid #9e3636;
+  width:  100%;
+}
+
+/* Styling Links  using the element selector LVHA   */
+.logo nav  a {
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 18px;
+  margin: 5px 3px 0 0;
+  color: #9e3636;
+ 
+  margin-right:25px;
+
+
+
+  
+}
+
+ nav a:link {
+   text-decoration: none;
+   display: inline;
+   display: inline-block;
+  
+  
+   
+}
+.post_area a:active {
+  background-color: black;
+}
+.logo a:hover {
+  background-color: cyan;
+  border-radius: 10px;
+  color: chocolate;
+  font-size: 20px;
+  margin: 10px 3px 0 0;
+}
+.post_area a {
+  text-decoration: none;
+  color: brown;
+  font-style: italic;
+}
+
+.post_area a:hover {
+  color: chocolate;
+  font-size: 20px;
+}
+
+.middle_link a:hover {
+  color: chocolate;
+  font-size: 20px;
+  text-decoration: none;
+}
+.middle_link a {
+  text-decoration: none;
+  color: #8d618fa4;
+}
+
+.container, .container2{
+   width: 600px;
+  margin: 0 150px 0 100px;
+}
+.list_items{
+  width: 600px;
+  margin: 0 150px 0 100px;
+}
+
+.foot_section{
+  margin: 2px 100px;
+  height: ;
+}
+.foot_section p{
+  background-color: grey;
+  font-size: 16px;
+  text-align: center;
+  font-style: italic;
+  
+}

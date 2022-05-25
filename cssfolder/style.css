@@ -1,0 +1,113 @@
+body{
+    font-family: sans-serif;
+    font-size: 18px;
+
+}
+.wrapper{
+    width: 650px;
+    border: 6px solid black;
+     margin-left: 50px;
+
+}
+
+.wrapper img{
+    width:50%;
+}
+ h2{
+    text-align: center;
+    margin:0 2px 20px 2px;
+    font-size: 25px;
+    background-color:black;
+    color: brown;
+}
+
+h2::before{
+    content: "sales";
+    text-transform: uppercase;
+    background-color: aqua;
+    font-size: 30px;
+     margin-left: -65px;
+      padding-top: 10px;
+     position: relative;
+}
+
+.color-list li{
+list-style: square;
+ 
+
+}
+
+.list1{
+    color: aqua;
+
+}
+.list2{
+    color: brown;
+}
+.list3{
+    color:green;
+}
+.list4{
+    color: red;
+}
+
+.shipping{
+    font-style: italic;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: grey;
+}
+.wrapper h3{
+    text-transform: capitalize;
+    color: cadetblue;
+}
+.price{
+    color:brown;
+}
+
+/* link */
+
+a:link{
+    color:brown;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color:orangered;
+    font-size:25px;
+    border: 1px solid grey;
+}
+ 
+.list_items p{
+ font-weight: 300;
+
+}
+.list_items li{
+    line-height: 1.5;
+}
+.cart{
+     margin-bottom: 0px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 2px 0 2px 0; 
+    cursor: pointer;
+}
+
+.cart:link{
+         color:brown;
+}
+.cart:hover{
+    background-color:white;
+      font-size: 18px;
+
+}
